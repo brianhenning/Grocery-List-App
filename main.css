@@ -1,0 +1,149 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	background-image: url("http://i.imgur.com/3ufahnD.jpg");
+	background-size: cover;
+}
+
+#interface {
+	margin: 100px auto 100px auto;
+	background-color: #E6CC80;
+	width: 450px;
+	min-height: 650px;
+	opacity: 1.0;
+	border-radius: 25px;
+	border: 1px solid #331a00;
+	
+}
+
+h2 {
+	font-family: lobster;
+	font-weight: 400;
+	text-align: center;
+	font-size: 50px;
+	opacity: 0.75;
+}
+
+#add {
+	margin: 10px auto 10px auto;
+	background-color: #140A00;
+	width: 350px;
+	height: 80px;
+	border-radius: 2px;
+	opacity: 0.90;
+}
+
+#additem {
+	width: 310px;
+	height: 25px;
+	font-family: shadows into light;
+	font-size: 20px;
+	position: relative;
+	margin: 5px 20px 5px 20px;
+	border-radius: 5px;
+}
+
+#submit {
+	width: 95px;
+	height: 30px;
+	border-radius: 2px;
+	font-family: lobster;
+	font-size: 22px;
+	margin-left: 135px;
+	margin-right: 135px;
+	background-image: linear-gradient(to top, #999999 0%, #cccccc 100%)
+}
+
+#listbox {
+	width: 425px;
+	height: 500px;
+	margin: 10px auto 10px auto;
+}
+
+#items {
+	font-family: lobster;
+	font-size: 35px;
+	opacity: 0.75;
+}
+
+.groceries {
+	font-family: shadows into light;
+	font-size: 25px;
+	opacity: 0.75;
+	margin-left: 40px;
+}
+
+li {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.check {
+	width: 20px;
+	height: 20px;
+	border-radius: 15px;
+	box-shadow: 0px 2px 2px #333333;
+}
+
+.trashcan {
+	width: 25px;
+	height: 30px;
+	float: right;
+	margin-right: 40px;
+}
+
+#name {
+	width: 425px;
+	height: 30px;
+	margin: auto;
+	text-align: center;
+	font-family: Lobster;
+	font-size: 15px;
+}
