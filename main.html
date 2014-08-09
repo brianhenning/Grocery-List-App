@@ -5,40 +5,20 @@
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="main.css">
 		<link href='http://fonts.googleapis.com/css?family=Lobster|Shadows+Into+Light' rel='stylesheet' type='text/css'>
-		<script src="shopping.js"></script>
-		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+		<script src="app.js"></script>
+		<script src="http://code.jquery.com/jquery.min.js"></script>
 	</head>
 	<body>
 		<div id="interface">
 			<h2>Grocery List</h2>
-			<div id="add">
-				<input type="text" id="additem" name="additem" placeholder=" Add Item">
+			<div id="addbox">
+				<input type="text" id="inputfield" name="additem" placeholder=" Add Item">
 				<button id="submit">Add</button>
 			</div>
 			<div id="listbox">
-				<p id="items">Items...</p><br>
-				<ul class="groceries">
-					<li>
-						<input type="checkbox" class="check">Bread
-						<img src="http://i.imgur.com/4JZkF0p.png" class="trashcan">
-					</li>
-					<li>
-						<input type="checkbox" class="check">Blackberries
-						<img src="http://i.imgur.com/4JZkF0p.png" class="trashcan">
-					</li>
-					<li>
-						<input type="checkbox" class="check">Baby back ribs
-						<img src="http://i.imgur.com/4JZkF0p.png" class="trashcan">
-					</li>
-					<li>
-						<input type="checkbox" class="check">Wine
-						<img src="http://i.imgur.com/4JZkF0p.png" class="trashcan">
-					</li>
-					<li>
-						<input type="checkbox" class="check">Rice
-						<img src="http://i.imgur.com/4JZkF0p.png" class="trashcan">
-					</li>
+				<p id="description">Items...</p><br>
+				<ul class="ullist">
+				</ul>
 			</div>
 			<div id="name">
 				<p>2014 Brian Henning</p>
