@@ -54,7 +54,7 @@ body {
 
 #interface {
 	margin: 100px auto 100px auto;
-	background-color: #E6CC80;
+	background-color: #CFB873;
 	width: 450px;
 	min-height: 650px;
 	opacity: 0.90;
@@ -107,17 +107,52 @@ h2 {
 	margin: 10px auto 10px auto;
 }
 
+#instructions{
+	font-family: shadows into light;
+	font-size: 18px;
+	text-align: center;
+}
+
 #description {
 	font-family: lobster;
 	font-size: 35px;
 	opacity: 0.75;
 }
 
-#name {
+#bottombox {
 	width: 425px;
-	height: 30px;
+	height: 70px;
 	margin: auto;
 	text-align: center;
 	font-family: Times;
 	font-size: 15px;
+}
+
+#removeall {
+	width: 300px;
+	height: 30px;
+	border-radius: 2px;
+	font-family: lobster;
+	font-size: 22px;
+	background-color: #CFB873;
+	border: 1px solid black;
+}
+
+li {
+	font-family: shadows into light;
+	font-size: 25px;
+	margin: 0px 0px 3px 35px;
+}
+
+.done {
+	font-family: shadows into light;
+	font-size: 25px;
+	margin: 0px 0px 3px 35px;
+	text-decoration: line-through;
+}
+
+#quote {
+	position: relative;
+	bottom: 0px;
+	margin-bottom: 0px;
 }

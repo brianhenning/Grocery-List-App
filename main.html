@@ -1,12 +1,12 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		<title>Grocery List</title>
+		<title>"...Dont forget the milk"</title>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="main.css">
 		<link href='http://fonts.googleapis.com/css?family=Lobster|Shadows+Into+Light' rel='stylesheet' type='text/css'>
-		<script src="app.js"></script>
 		<script src="http://code.jquery.com/jquery.min.js"></script>
+		<script src="app.js"></script>
 	</head>
 	<body>
 		<div id="interface">
@@ -16,12 +16,17 @@
 				<button id="submit">Add</button>
 			</div>
 			<div id="listbox">
+				<p id="instructions">(psst...click item to cross-off, double click to remove)</p>
 				<p id="description">Items...</p><br>
 				<ul class="ullist">
+					<li class="done">wine</li>
+					<li class="done">kale</li>
+					<li class="done">salmon</li>
 				</ul>
 			</div>
-			<div id="name">
-				<p>2014 Brian Henning</p>
+			<div id="bottombox">
+				<button id="removeall">Remove All Crossed-Off Items</button>
+				<p>..."dont forget the milk"</p>
 			</div>
 		</div>
 	</body>
