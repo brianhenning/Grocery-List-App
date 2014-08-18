@@ -37,4 +37,10 @@ $(document).ready(function(){
 	$('#interface').mouseleave(function() {
 		$(this).css('background-color', '#CFB873');
 	});
+
+/*Clear all items off list*/
+
+	$('#removeall').click(function() {
+		$('li').remove();
+	});
 });
